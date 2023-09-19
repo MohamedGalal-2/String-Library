@@ -2,7 +2,7 @@
 #include "..\Header Files\memcpy.h"
 
 /*Function Definition Section*/
-int my_memcpy(char* dest, const char* src, size_t n)
+size_t my_memcpy(char* dest, const char* src, size_t n)
 {
 	unsigned int Retval = 0;
 	if (NULL == dest || NULL == src)
