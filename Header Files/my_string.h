@@ -7,7 +7,8 @@
 #include "..\Header Files\memcpy.h"
 #include "..\Header Files\memchr.h"
 #include "..\Header Files\memcmp.h"
-#include "..\Header Files\strlen.h"
 #include "..\Header Files\memmove.h"
+#include "..\Header Files\strlen.h"
+#include "..\Header Files\strcat.h"
 
 #endif

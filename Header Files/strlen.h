@@ -1,6 +1,6 @@
 /*File Guard*/
-#ifndef _STRLEN_C_
-#define _STRLEN_C_
+#ifndef _STRLEN_H_
+#define _STRLEN_H_
 
 /*Include Sections*/
 #include <stdio.h>

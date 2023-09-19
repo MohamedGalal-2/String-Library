@@ -1,6 +1,6 @@
 /*File Guard*/
-#ifndef _MEMMOVE_C_
-#define _MEMMOVE_C_
+#ifndef _MEMMOVE_H_
+#define _MEMMOVE_H_
 
 /*Include Sections*/
 #include <stdio.h>

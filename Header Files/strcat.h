@@ -1,11 +1,11 @@
 /*File Guard*/
-#ifndef _MEMCPY_H_
-#define _MEMCPY_H_
+#ifndef _STRCAT_H
+#define _STRCAT_H
 
 /*Include Sections*/
 #include <stdio.h>
 
 /*Function Declaration Section*/
-size_t my_memcpy(char* dest, const char* src, size_t n);
+char* my_strcat(char* dest, const char* src);
 
 #endif
