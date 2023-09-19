@@ -6,6 +6,6 @@
 #include <stdio.h>
 
 /*Function Declaration Section*/
-unsigned int Memset(char str[], unsigned char val, unsigned int number_of_bytes);
+int my_memset(char* str, int val, size_t n);
 
 #endif

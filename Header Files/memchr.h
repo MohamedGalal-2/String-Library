@@ -1,11 +1,11 @@
 /*File Guard*/
-#ifndef _MEMCPY_C_
-#define _MEMCPY_C_
+#ifndef _MEMCHR_H_
+#define _MEMCHR_H_
 
 /*Include Sections*/
 #include <stdio.h>
 
 /*Function Declaration Section*/
-int my_memcpy(char* dest, const char* src, size_t n);
+char* my_memchr(const char* str, int c, size_t n);
 
 #endif
