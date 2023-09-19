@@ -1,17 +1,7 @@
-#include <stdio.h>
+/*Include Sections*/
+#include "..\Header Files\memset.h"
 
-unsigned int Memset(char str[], unsigned char val, unsigned int number_of_bytes);
-
-int main() {
-
-	char str[50] = "Hello";
-
-	Memset(str + 5, '+', 15);
-	Memset(str + 20, '!', 15);
-	printf("%s", str);
-	return 0;
-}
-
+/*Function Definition Section*/
 unsigned int Memset(char* str, unsigned char val, unsigned int number_of_bytes) {
 	unsigned int Retval = 0;
 	if (NULL == str)
