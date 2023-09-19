@@ -23,6 +23,10 @@ int main()
 
 	retval = my_memcmp("Mohamed Ahmed", "Mohamed Ahme", 15);
 	printf("%d\n", retval);
+
+	retval = my_strlen("Mohamed Ahmed");
+	printf("%d\n", retval);
+
 	return 0;
 }
 
