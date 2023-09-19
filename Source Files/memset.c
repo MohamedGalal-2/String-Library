@@ -2,7 +2,8 @@
 #include "..\Header Files\memset.h"
 
 /*Function Definition Section*/
-unsigned int Memset(char* str, unsigned char val, unsigned int number_of_bytes) {
+int my_memset(char* str, int val, size_t n)
+{
 	unsigned int Retval = 0;
 	if (NULL == str)
 	{
@@ -10,9 +11,9 @@ unsigned int Memset(char* str, unsigned char val, unsigned int number_of_bytes) 
 	}
 	else
 	{
-		for (int i = 0; i < number_of_bytes; i++)
+		for (int i = 0; i < n; i++)
 		{
-			str[i] = val;
+			str[i] = (char)val;
 		}
 	}
 	return Retval;
