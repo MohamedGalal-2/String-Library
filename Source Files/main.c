@@ -52,10 +52,11 @@ int main()
 	printf("%s\n", my_strncat(str5, str2, 15));
 	printf("%s\n", my_strncat(str1, str5, 15));
 	printf("----------------------------------------\n");
+	/*my_strchr test*/
+	printf("%s\n", my_strchr(str5, 'llo'));
 
 	return 0;
 }
-
 
 
 

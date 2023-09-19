@@ -2,7 +2,7 @@
 #include "..\Header Files\memchr.h"
 
 /*Function Definition Section*/
-char* my_memchr(const char* str, int c, size_t n)
+char* my_strchr(const char* str, int c)
 {
 	if (NULL == str)
 	{
@@ -10,13 +10,16 @@ char* my_memchr(const char* str, int c, size_t n)
 	}
 	else
 	{
-		for (int i = 0; i < n; i++)
+		int i = 0;
+		while (str[i] != '\0')
 		{
 			if (str[i] == (char)c)
 			{
-				return str + i;
-				break;
+				return (char*)(str + i);
 			}
+			i++;
 		}
+
+
 	}
 }
