@@ -5,7 +5,7 @@
 int main()
 {
 	char* ret;
-	int retval;
+	int retval = 0;
 	char str1[100] = "Hello, World!";
 	char str2[100] = "Hey What happened";
 	char str5[100] = "AA";
@@ -28,7 +28,8 @@ int main()
 	printf("----------------------------------------\n");
 
 	/*my_memcmp test*/
-	retval = my_memcmp("Mohamed Ahmed", "Mohamed Ahme", 15);
+	printf("%s\n%s\n", str1, str2);
+	retval = my_memcmp("MohammeA ", "Mohammed  A ", 9);
 	printf("%d\n", retval);
 	printf("----------------------------------------\n");
 
@@ -54,6 +55,8 @@ int main()
 	printf("----------------------------------------\n");
 	/*my_strchr test*/
 	printf("%s\n", my_strchr(str5, 'llo'));
+	printf("----------------------------------------\n");
+
 
 	return 0;
 }
