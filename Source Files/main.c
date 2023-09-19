@@ -48,9 +48,9 @@ int main()
 	printf("%s\n", my_strcat(str1, str2));
 	printf("----------------------------------------\n");
 
-	/*my_strcat test*/
-	printf("%s\n", my_strncat(str5, str2, 10));
-	printf("%s\n", my_strncat(str1, str5, 10));
+	/*my_strncat test*/
+	printf("%s\n", my_strncat(str5, str2, 15));
+	printf("%s\n", my_strncat(str1, str5, 15));
 	printf("----------------------------------------\n");
 
 	return 0;
