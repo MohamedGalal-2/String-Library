@@ -10,5 +10,6 @@
 #include "..\Header Files\memmove.h"
 #include "..\Header Files\strlen.h"
 #include "..\Header Files\strcat.h"
+#include "..\Header Files\strncat.h"
 
 #endif
