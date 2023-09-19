@@ -1,6 +1,6 @@
 /*Includes Section*/
 #include "..\Header Files\my_string.h"
-#include <string.h>
+
 /*Main Function Section*/
 int main()
 {
