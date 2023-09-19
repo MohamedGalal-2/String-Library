@@ -6,9 +6,9 @@ int main()
 {
 	char* ret;
 	int retval;
-	char str1[51] = "Hello, World!";
-	char str2[50] = "Hey What happened";
-	char str5[30] = "AA";
+	char str1[100] = "Hello, World!";
+	char str2[100] = "Hey What happened";
+	char str5[100] = "AA";
 
 	/*my_memset test*/
 	printf("%s\n", str1);
@@ -46,6 +46,11 @@ int main()
 	/*my_strcat test*/
 	printf("%s\n", my_strcat(str5, str2));
 	printf("%s\n", my_strcat(str1, str2));
+	printf("----------------------------------------\n");
+
+	/*my_strcat test*/
+	printf("%s\n", my_strncat(str5, str2, 10));
+	printf("%s\n", my_strncat(str1, str5, 10));
 	printf("----------------------------------------\n");
 
 	return 0;
