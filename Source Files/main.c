@@ -29,7 +29,7 @@ int main()
 
 	/*my_memcmp test*/
 	printf("%s\n%s\n", str1, str2);
-	retval = my_memcmp("MohammeA ", "Mohammed  A ", 9);
+	retval = my_memcmp("MohammeA  A       ", "MohammeA    E", 11);
 	printf("%d\n", retval);
 	printf("----------------------------------------\n");
 
