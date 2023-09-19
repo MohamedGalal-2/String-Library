@@ -1,6 +1,7 @@
 /*Includes Section*/
 #include "..\Header Files\my_string.h"
 
+
 /*Main Function Section*/
 int main()
 {
@@ -27,8 +28,13 @@ int main()
 	retval = my_strlen("Mohamed Ahmed");
 	printf("%d\n", retval);
 
+	printf("%s\n", str1);
+	printf("%s\n", str2);
+	printf("%s\n", my_memmove(str1, str2, 10));
+
 	return 0;
 }
+
 
 
 
