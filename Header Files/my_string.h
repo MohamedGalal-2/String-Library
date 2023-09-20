@@ -12,5 +12,6 @@
 #include "..\Header Files\strcat.h"
 #include "..\Header Files\strncat.h"
 #include "..\Header Files\strchr.h"
+#include "..\Header Files\strcmp.h"
 
 #endif
