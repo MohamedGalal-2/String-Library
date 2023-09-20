@@ -6,6 +6,6 @@
 #include <stdio.h>
 
 /*Function Declaration Section*/
-size_t my_memcpy(char* dest, const char* src, size_t n);
+int my_memcpy(char* dest, const char* src, size_t n);
 
 #endif
