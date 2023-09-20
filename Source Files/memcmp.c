@@ -2,7 +2,7 @@
 #include "..\Header Files\memcmp.h"
 
 /*Function Definition Section*/
-size_t my_memcmp(const char* str1, const char* str2, size_t n)
+int my_memcmp(const char* str1, const char* str2, size_t n)
 {
 	int Retval = -1;
 	int str1len = 0;
@@ -14,6 +14,7 @@ size_t my_memcmp(const char* str1, const char* str2, size_t n)
 		str1len++;
 		strlenIndex++;
 	}
+	strlenIndex = 0;
 	while (str2[strlenIndex] != '\0')
 	{
 		str2len++;
@@ -28,7 +29,11 @@ size_t my_memcmp(const char* str1, const char* str2, size_t n)
 	{
 		for (int i = 0; i < n; i++)
 		{
-			if (str1[i] != str2[i])
+			if (str1[i] == str2[i])
+			{
+				Retval = 0;
+			}
+			else if (str1[i] != str2[i])
 			{
 				if (str2len > str1len)
 				{
@@ -54,10 +59,7 @@ size_t my_memcmp(const char* str1, const char* str2, size_t n)
 					}
 				}
 			}
-			else if (str1[i] == str2[i])
-			{
-				Retval = 0;
-			}
+
 			else
 			{
 				Retval = -1;
