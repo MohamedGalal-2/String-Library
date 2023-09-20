@@ -21,16 +21,8 @@ int my_strcmp(const char* str1, const char* str2)
 		strlenIndex++;
 	}
 
-	printf("%d %d\n", str1len, str2len);
-
 	int index = 0;
-	if (str1len > str2len) {
-		index = str1len;
-	}
-	else
-	{
-		index = str2len;
-	}
+	index = (str1len > str2len) ? str1len : str2len;
 
 	if (NULL == (char)str1 || NULL == (char)str2)
 	{
