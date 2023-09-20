@@ -4,8 +4,8 @@
 /*Function Definition Section*/
 char* my_strcat(char* dest, const char* src)
 {
-	size_t destlen = 0;
-	size_t srclen = 0;
+	int destlen = 0;
+	int srclen = 0;
 
 	if (NULL == dest || NULL == src)
 	{
