@@ -9,6 +9,5 @@ int my_strlen(const char* str)
 	{
 		i++;
 	}
-	i = 0;
 	return i;
 }

@@ -2,8 +2,10 @@
 #include "..\Header Files\memcpy.h"
 
 /*Function Definition Section*/
-int my_memcpy(char* dest, const char* src, size_t n)
+void* my_memcpy(void* dest, const void* src, size_t n)
 {
+	char* destaddress = dest;
+	char* srcaddress = src;
 	unsigned int Retval = 0;
 	if (NULL == dest || NULL == src)
 	{
@@ -11,11 +13,11 @@ int my_memcpy(char* dest, const char* src, size_t n)
 	}
 	else
 	{
-		for (int i = 0; i < n; i++)
+		while (n--)
 		{
-			dest[i] = src[i];
+			*destaddress++ = *srcaddress++;
 		}
 	}
-	return Retval;
+	return destaddress;
 }
 

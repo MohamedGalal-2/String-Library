@@ -2,19 +2,20 @@
 #include "..\Header Files\memset.h"
 
 /*Function Definition Section*/
-int my_memset(char* str, int val, size_t n)
+void* my_memset(void* str, int val, size_t n)
 {
+	char* ptr = str;
 	unsigned int Retval = 0;
 	if (NULL == str)
 	{
-		Retval = 1;
+		return 0;
 	}
 	else
 	{
-		for (int i = 0; i < n; i++)
+		while (n--)
 		{
-			str[i] = (char)val;
+			*ptr++ = (char)val;
 		}
 	}
-	return Retval;
+	return str;
 }

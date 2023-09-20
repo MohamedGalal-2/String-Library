@@ -12,7 +12,7 @@ int main()
 
 	/*my_memset test*/
 	printf("%s\n", str1);
-	my_memset(str1 + 10, 'a', 15);
+	my_memset(str1 + 5, 'a', 15);
 	printf("%s\n", str1);
 	printf("----------------------------------------\n");
 
@@ -23,18 +23,21 @@ int main()
 	printf("----------------------------------------\n");
 
 	/*my_memchr test*/
-	ret = my_memchr(str1, 'aa', 11);
+	printf("%s\n", str1);
+	ret = my_memchr(str1, 'l', 11);
 	printf("%s\n", ret);
 	printf("----------------------------------------\n");
 
 	/*my_memcmp test*/
-	retval = my_memcmp("MohammeA  A       ", "MohammeA    E       ", 19);
+	retval = my_memcmp("MohammeA", "MohammeA", 8);
 	printf("%d\n", retval);
 	printf("----------------------------------------\n");
 
 	/*my_strlen test*/
-	retval = my_strlen("Mohamed Ahmed");
+	printf("%s\n", str1);
+	retval = my_strlen(str1);
 	printf("%d\n", retval);
+	printf("%d\n", *(&str1 + 1) - str1);
 	printf("----------------------------------------\n");
 
 	/*my_memmove test*/

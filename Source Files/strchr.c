@@ -15,11 +15,9 @@ char* my_strchr(const char* str, int c)
 		{
 			if (str[i] == (char)c)
 			{
-				return (char*)(str + i);
+				return (str + i);
 			}
 			i++;
 		}
-
-
 	}
 }

@@ -59,7 +59,6 @@ int my_memcmp(const char* str1, const char* str2, size_t n)
 					}
 				}
 			}
-
 			else
 			{
 				Retval = -1;

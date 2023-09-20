@@ -2,8 +2,9 @@
 #include "..\Header Files\memchr.h"
 
 /*Function Definition Section*/
-char* my_memchr(const char* str, int c, size_t n)
+void* my_memchr(const void* str, int c, size_t n)
 {
+	char* straddress = str;
 	if (NULL == str)
 	{
 		return 0;
@@ -12,9 +13,9 @@ char* my_memchr(const char* str, int c, size_t n)
 	{
 		for (int i = 0; i < n; i++)
 		{
-			if (str[i] == (char)c)
+			if (straddress[i] == (char)c)
 			{
-				return str + i;
+				return straddress + i;
 				break;
 			}
 		}
