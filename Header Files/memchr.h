@@ -6,6 +6,6 @@
 #include <stdio.h>
 
 /*Function Declaration Section*/
-char* my_memchr(const char* str, int c, size_t n);
+void* my_memchr(const void* str, int c, size_t n);
 
 #endif
