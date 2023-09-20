@@ -28,8 +28,7 @@ int main()
 	printf("----------------------------------------\n");
 
 	/*my_memcmp test*/
-	printf("%s\n%s\n", str1, str2);
-	retval = my_memcmp("MohammeA  A       ", "MohammeA    E", 11);
+	retval = my_memcmp("MohammeA  A       ", "MohammeA    E       ", 19);
 	printf("%d\n", retval);
 	printf("----------------------------------------\n");
 
@@ -53,13 +52,22 @@ int main()
 	printf("%s\n", my_strncat(str5, str2, 15));
 	printf("%s\n", my_strncat(str1, str5, 15));
 	printf("----------------------------------------\n");
+
 	/*my_strchr test*/
 	printf("%s\n", my_strchr(str5, 'llo'));
 	printf("----------------------------------------\n");
 
+	/*my_strcmp test*/
+	retval = my_strcmp("MohammeA E   S ", "MohammeA S E  ");
+	printf("%d\n", retval);
+	printf("----------------------------------------\n");
+
+
 
 	return 0;
 }
+
+
 
 
 
