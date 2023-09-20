@@ -6,6 +6,6 @@
 #include <stdio.h>
 
 /*Function Declaration Section*/
-size_t my_strlen(const char* str);
+int my_strlen(const char* str);
 
 #endif
