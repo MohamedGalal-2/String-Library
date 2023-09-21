@@ -1,7 +1,15 @@
 /*Include Sections*/
 #include "..\Header Files\strncat.h"
 
-/*Function Definition Section*/
+/**
+  * @brief   concatenate two strings
+  * @param   dest: pointer to the destination array
+  *          src: pointer to the source array
+  *          n: number of characters to be concatenated
+  * @return  pointer to the destination array
+  */
+
+  /*Function Definition Section*/
 char* my_strncat(char* dest, const char* src, size_t n)
 {
 	size_t destlen = 0;
