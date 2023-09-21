@@ -1,6 +1,16 @@
 /*Include Sections*/
 #include "..\Header Files\memcmp.h"
 
+/**
+  * @brief   compare two strings
+  * @param   str1: first string to be compared 
+  *          str2: second string to be compared
+  *          n: number of characters to be compared
+  * @return  0 : if the strings are equal
+  *          1 : if the first string is greater than the second string
+  *          -1 : if the first string is less than the second string
+  */
+
 /*Function Definition Section*/
 int my_memcmp(const char* str1, const char* str2, size_t n)
 {

@@ -1,7 +1,14 @@
 /*Include Sections*/
 #include "..\Header Files\strcat.h"
 
-/*Function Definition Section*/
+/**
+  * @brief   concatenate two strings
+  * @param   dest: pointer to the destination array
+  *          src: pointer to the source array
+  * @return  pointer to the destination array
+  */
+
+  /*Function Definition Section*/
 char* my_strcat(char* dest, const char* src)
 {
 	int destlen = 0;

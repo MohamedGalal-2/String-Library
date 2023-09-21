@@ -1,7 +1,16 @@
 /*Function Definition Section*/
 #include "..\Header Files\strcmp.h"
 
-/*Function Definition Section*/
+/**
+  * @brief   compare two strings
+  * @param   str1: pointer to the first string to be compared
+  *          str2: pointer to the second string to be compared
+  * @return  0 : if both strings are equal
+  *          1 : if the first character that does not match has a greater value in str1 than in str2
+  *         -1 : if the first character that does not match has a greater value in str2 than in str1
+  */
+
+  /*Function Definition Section*/
 int my_strcmp(const char* str1, const char* str2)
 {
 	int Retval = -1;
