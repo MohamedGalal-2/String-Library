@@ -8,6 +8,13 @@ This repository contains a simple string library written in C. It provides sever
 * Contributing
 * License
 
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Functions](#Functions)
+- [Contributing](#Contributing)
+- [License](#License)
+
 ### Installation
 
 To use this library in your project, you can clone this repository or download the necessary files.
@@ -23,25 +30,25 @@ Once you have included the string.h header file, you can start utilizing the lib
 ### Functions
 This library provides the following functions for string manipulation:
 
-my_memchr: Searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str.
+1. my_memchr: Searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str.
 
-my_memcmp: Compares the first n bytes of str1 and str2.
+2. my_memcmp: Compares the first n bytes of str1 and str2.
 
-my_memcpy: Copies n characters from src to dest.
+3. my_memcpy: Copies n characters from src to dest.
 
-my_memmove: Another function to copy n characters from str2 to str1.
+4. my_memmove: Another function to copy n characters from str2 to str1.
 
-my_memset: Copies the character c (an unsigned char) to the first n characters of the string pointed to, by the argument str.
+5. my_memset: Copies the character c (an unsigned char) to the first n characters of the string pointed to, by the argument str.
 
-my_strcat: Appends the string pointed to, by src to the end of the string pointed to by dest.
+6. my_strcat: Appends the string pointed to, by src to the end of the string pointed to by dest.
 
-my_strchr: Searches for the first occurrence of the character c (an unsigned char) in the string pointed to, by the argument str.
+7. my_strchr: Searches for the first occurrence of the character c (an unsigned char) in the string pointed to, by the argument str.
 
-my_strcmp: Compares the string pointed to, by str1 to the string pointed to by str2.
+8. my_strcmp: Compares the string pointed to, by str1 to the string pointed to by str2.
 
-my_strlen: Computes the length of the string str up to but not including the terminating null character.
+9. my_strlen: Computes the length of the string str up to but not including the terminating null character.
 
-my_strncat: Appends the string pointed to, by src to the end of the string pointed to, by dest up to n characters long.
+10. my_strncat: Appends the string pointed to, by src to the end of the string pointed to, by dest up to n characters long.
 
 For more detailed information on each function, refer to the comments in the string.c file.
 
