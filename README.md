@@ -18,7 +18,7 @@ This repository contains a simple string library written in C. It provides sever
 ### Installation
 To use this library in your project, you can clone this repository or download the necessary files.
 
-1.     git clone https://github.com/MohamedGalal-2/String-Library.git
+    git clone https://github.com/MohamedGalal-2/String-Library.git
 Afterwards, you need to include the string.h header file in your C code and link with the library during compilation.
 
 #include "string.h"
