@@ -2,13 +2,6 @@
 This repository contains a simple string library written in C. It provides several useful functions for string manipulation.
 
 ## Table of Contents
-* Installation
-* Usage
-* Functions
-* Contributing
-* License
-
-## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Functions](#Functions)
@@ -19,9 +12,10 @@ This repository contains a simple string library written in C. It provides sever
 To use this library in your project, you can clone this repository or download the necessary files.
 
     git clone https://github.com/MohamedGalal-2/String-Library.git
+    
 Afterwards, you need to include the string.h header file in your C code and link with the library during compilation.
 
-#include "my_string.h"
+    #include "my_string.h"
 
 ### Usage
 Once you have included the string.h header file, you can start utilizing the library's functions to perform various string operations.
