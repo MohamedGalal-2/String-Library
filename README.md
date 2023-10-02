@@ -31,7 +31,6 @@ Once you have included the string.h header file, you can start utilizing the lib
 This library provides the following functions for string manipulation:
 
 1. my_memchr: Searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str.
-
 2. my_memcmp: Compares the first n bytes of str1 and str2.
 
 3. my_memcpy: Copies n characters from src to dest.
