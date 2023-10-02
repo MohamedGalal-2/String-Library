@@ -1,14 +1,14 @@
-#String Library
+# String Library
 This repository contains a simple string library written in C. It provides several useful functions for string manipulation.
 
-##Table of Contents
-*Installation
-*Usage
-*Functions
-*Contributing
-*License
+## Table of Contents
+* Installation
+* Usage
+* Functions
+* Contributing
+* License
 
-###Installation
+### Installation
 
 To use this library in your project, you can clone this repository or download the necessary files.
 
@@ -17,10 +17,10 @@ Afterwards, you need to include the string.h header file in your C code and link
 
 #include "string.h"
 
-###Usage
+### Usage
 Once you have included the string.h header file, you can start utilizing the library's functions to perform various string operations.
 
-##Functions
+### Functions
 This library provides the following functions for string manipulation:
 
 my_memchr: Searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str.
@@ -35,8 +35,8 @@ my_strlen: Computes the length of the string str up to but not including the ter
 my_strncat: Appends the string pointed to, by src to the end of the string pointed to, by dest up to n characters long.
 For more detailed information on each function, refer to the comments in the string.c file.
 
-###Contributing
+### Contributing
 Contributions to this library are always welcome! If you have any suggestions, bug fixes, or additional functions to add, please feel free to create a pull request.
 
-###License
+### License
 This project contains my own implementation for the string library in C. Feel free to use for any purpose.
