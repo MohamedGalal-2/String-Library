@@ -40,4 +40,4 @@ For more detailed information on each function, refer to the comments in the str
 Contributions to this library are always welcome! If you have any suggestions, bug fixes, or additional functions to add, please feel free to create a pull request.
 
 ### License
-This project contains my own implementation for the string library in C. Feel free to use for any purpose.
+This repository is licensed under the MIT License. Please see the LICENSE file for more information.
